@@ -5,16 +5,8 @@ const nextConfig = {
     output: 'standalone',
     compress: false,
     images: {
-        unoptimized: true,
-        remotePatterns: [
-            {
-                protocol: 'https',
-                hostname: 'avatars.githubusercontent.com',
-                port: '',
-                pathname: '/u/**',
-            },
-        ],
-    },
-}
-
-module.exports = nextConfig
+      unoptimized: true
+    }
+  }
+  
+  module.exports = nextConfig
